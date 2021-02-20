@@ -5,13 +5,30 @@
  Este é um autenticador de usuários feito a partir de php, banco de dados e jquery. Nele é possivel acessar os dados de todos usuários e até mesmo edita-los, tendo suporte ao login e ao cadastro de novas contas.
  
 # Logins pré-definidos:
-  > Dados do administrador
-  > login: admin@ifsp.edu.br
-  > senha: 12345678
+ 
+ 
+ > ### Dados do administrador
   
-  >Dados de usuarios
-  >login: caiqueponjjar@gmail.com
-  >senha: 123454321
   
-  >login:rhyan.oliveira@aluno.ifsp.edu.br
-  >senha: rhyan1234
+ >> login: admin@ifsp.edu.br
+  
+  
+ >> senha: 12345678
+  
+  <hr/>
+  
+  
+  > ### Dados de usuarios
+  
+  
+  >>login: caiqueponjjar@gmail.com
+  
+  
+  >>senha: 123454321
+  
+  
+ 
+  >>login: rhyan.oliveira@aluno.ifsp.edu.br
+  
+  
+  >>senha: rhyan1234
