@@ -1,4 +1,4 @@
-# Autenticador
+# Autenticador de usuários
  Um autenticador de usuários com suporte a administradores e gerenciador de dados.
 
 # Como funciona?
