@@ -18,7 +18,7 @@
   <hr/>
   
   
-  > ### Dados de usuarios
+  > ### Dados de usuarios (apenas para exemplo)
   
   
   >>login: caiqueponjjar@gmail.com
