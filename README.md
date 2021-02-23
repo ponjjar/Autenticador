@@ -32,6 +32,6 @@
   
   
   >>senha: rhyan1234
-
+ 
 # Saiba mais
 Veja mais em nosso site:  <a target="_blank" rel="noopener noreferrer" href="http://cacolab.ga/projetos/autenticador/php/">Acessar Autentificador</a>
