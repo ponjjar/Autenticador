@@ -2,8 +2,9 @@
 <?php
 include "db_connection.php";
 
-@$email=$_POST['emailanterior'];
-@$nome=$_POST['nomeusuario'];
+$email=$_POST['emailanterior'];
+$nome=$_POST['nomeusuario'];
+$emailatual=$_POST['emailatual'];
 //CHECA SE A OPÇÃO EXCLUIR CONTA ESTÁ MARCADA.
 if(isset($_POST['excluir']) && !isset($_POST['cancelar'])){
 	//DELETA O USUARIO.
@@ -13,7 +14,7 @@ if(isset($_POST['excluir']) && !isset($_POST['cancelar'])){
 	echo'<input type="hidden" name="emailatual" value='.$_POST['emailanterior'].'><br/><br/></form><hr/>';
 }
 if(isset($_POST['remove'])){
-	mysqli_query($db_connection, "delete from usuario where user_email = '".$email."'");
+	mysqli_query($db_connection, "DELETE FROM usuario WHERE user_email LIKE '".$emailatual."'");
 	if (mysqli_affected_rows($db_connection))
 	$message="Excluido com sucesso";
 	else
